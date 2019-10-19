@@ -1,0 +1,59 @@
+ip,Reachable,SSH Enabled,Telnet Enabled,username,password,secret,device_type
+,,,,,,,
+192.1.1.130,Yes,No,Yes,Not Found,Not Found,NA,NA
+,,,,,,,
+192.1.1.131,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.132,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.133,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.134,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.135,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.136,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.137,Yes,Yes,Yes,Cisco,cisco,Not Required,cisco_ios
+,,,,,,,
+192.1.1.138,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.139,Yes,No,Yes,Not Found,Not Found,NA,NA
+,,,,,,,
+192.1.1.140,Yes,No,Yes,Not Required,cisco,Not Required,cisco_ios_telnet
+,,,,,,,
+192.1.1.141,Yes,Yes,Yes,Cisco,Cisco,Not Required,cisco_ios
+,,,,,,,
+192.1.1.142,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.143,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.144,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.145,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.146,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.147,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.148,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.149,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.150,Yes,Yes,Yes,Cisco,Cisco,cisco,cisco_ios
+,,,,,,,
+192.1.1.151,Yes,No,Yes,Not Found,Not Found,NA,NA
+,,,,,,,
+192.1.1.152,Yes,Yes,Yes,Cisco,cisco,Not Found,cisco_ios
+,,,,,,,
+192.1.1.153,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.154,Yes,No,Yes,Not Required,cisco,cisco,cisco_ios_telnet
+,,,,,,,
+192.1.1.155,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.156,No,NA,NA,NA,NA,NA,NA
+,,,,,,,
+192.1.1.157,Yes,No,Yes,Cisco,Cisco,Not Required,cisco_ios_telnet
+,,,,,,,
+192.1.1.158,Yes,No,Yes,Cisco,cisco,Not Required,cisco_ios_telnet

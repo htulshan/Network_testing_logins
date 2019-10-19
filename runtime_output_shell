@@ -1,0 +1,85 @@
+========================================
+PS C:\Users\htulshan\Documents\Projects\Login> python login.py
+Please enter the subnet of Lab IP: 192.1.1.128/27
+Input the excluded IPs, enter 'OK' once done:
+192.1.1.129
+OK
+Input the included IPs, enter 'OK' once done:
+OK
+========================================
+Range of useable IPs is:
+['192.1.1.130', '192.1.1.131', '192.1.1.132', '192.1.1.133', '192.1.1.134', '192.1.1.135', '192.1.1.136', '192.1.1.137', '192.1.1.138', '192.1.1.139', '192.1.1.140', '192.1.1.141', '192.1.1.142', '192.1.1.143', '192.1.1.144', '192.1.1.145', '192.1.1.146', '192.1.1.147', '192.1.1.148', '192.1.1.149', '192.1.1.150', '192.1.1.151', '192.1.1.152', '192.1.1.153', '192.1.1.154', '192.1.1.155', '192.1.1.156', '192.1.1.157', '192.1.1.158']
+========================================
+========================================
+To start the script processing press Return to exit type the break sequence :
+========================================
+========================================
+Checking for subset of reachable ips.
+========================================
+========================================
+Range of reachable IPs is:
+['192.1.1.130', '192.1.1.137', '192.1.1.139', '192.1.1.140', '192.1.1.141', '192.1.1.150', '192.1.1.151', '192.1.1.152', '192.1.1.154', '192.1.1.157', '192.1.1.158']
+========================================
+========================================
+Checking for subset of telnet enabled ips.
+========================================
+========================================
+Range of telnet enabled IPs is:
+['192.1.1.130', '192.1.1.137', '192.1.1.139', '192.1.1.140', '192.1.1.141', '192.1.1.150', '192.1.1.151', '192.1.1.152', '192.1.1.154', '192.1.1.157', '192.1.1.158']
+========================================
+========================================
+Checking for subset of SSH enabled ips.
+========================================
+========================================
+Range of SSH enabled IPs is:
+['192.1.1.137', '192.1.1.141', '192.1.1.150', '192.1.1.152']
+========================================
+========================================
+Trying to login into SSH enabled devices.
+========================================
+========================================
+IPs and there login details
+For IP 192.1.1.137 : Username Cisco Password cisco
+For IP 192.1.1.141 : Username Cisco Password Cisco
+For IP 192.1.1.150 : Username Cisco Password Cisco
+For IP 192.1.1.152 : Username Cisco Password cisco
+========================================
+========================================
+Trying to login into telnet enabled devices that have SSH disabled
+========================================
+========================================
+IPs and there login details
+For IP 192.1.1.140 : Username  Password cisco
+For IP 192.1.1.154 : Username  Password cisco
+For IP 192.1.1.157 : Username Cisco Password Cisco
+For IP 192.1.1.158 : Username Cisco Password cisco
+========================================
+========================================
+Data passed to find enable password:
+{'device_type': 'cisco_ios', 'ip': '192.1.1.137', 'username': 'Cisco', 'password': 'cisco'}
+{'device_type': 'cisco_ios', 'ip': '192.1.1.141', 'username': 'Cisco', 'password': 'Cisco'}
+{'device_type': 'cisco_ios', 'ip': '192.1.1.150', 'username': 'Cisco', 'password': 'Cisco'}
+{'device_type': 'cisco_ios', 'ip': '192.1.1.152', 'username': 'Cisco', 'password': 'cisco'}
+{'device_type': 'cisco_ios_telnet', 'ip': '192.1.1.140', 'username': '', 'password': 'cisco'}
+{'device_type': 'cisco_ios_telnet', 'ip': '192.1.1.154', 'username': '', 'password': 'cisco'}
+{'device_type': 'cisco_ios_telnet', 'ip': '192.1.1.157', 'username': 'Cisco', 'password': 'Cisco'}
+{'device_type': 'cisco_ios_telnet', 'ip': '192.1.1.158', 'username': 'Cisco', 'password': 'cisco'}
+========================================
+========================================
+Trying to login into the devices using different enable password
+========================================
+========================================
+Data received after trying enable passwords
+{'device_type': 'cisco_ios', 'ip': '192.1.1.137', 'username': 'Cisco', 'password': 'cisco', 'secret': 'Not Required'}
+{'device_type': 'cisco_ios', 'ip': '192.1.1.141', 'username': 'Cisco', 'password': 'Cisco', 'secret': 'Not Required'}
+{'device_type': 'cisco_ios_telnet', 'ip': '192.1.1.140', 'username': '', 'password': 'cisco', 'secret': 'Not Required'}
+{'device_type': 'cisco_ios_telnet', 'ip': '192.1.1.157', 'username': 'Cisco', 'password': 'Cisco', 'secret': 'Not Required'}
+{'device_type': 'cisco_ios_telnet', 'ip': '192.1.1.158', 'username': 'Cisco', 'password': 'cisco', 'secret': 'Not Required'}
+{'device_type': 'cisco_ios', 'ip': '192.1.1.150', 'username': 'Cisco', 'password': 'Cisco', 'secret': 'cisco'}
+{'device_type': 'cisco_ios', 'ip': '192.1.1.152', 'username': 'Cisco', 'password': 'cisco', 'secret': 'Not Found'}
+{'device_type': 'cisco_ios_telnet', 'ip': '192.1.1.154', 'username': '', 'password': 'cisco', 'secret': 'cisco'}
+========================================
+========================================
+Data written to file output.csv
+Hit Return to exit the script
+========================================
